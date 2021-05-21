@@ -1,0 +1,28 @@
+.container {
+    display:flex;
+    background-color: #dedede;
+    padding:1px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:50%;
+    margin: auto;
+}
+
+.label {
+    padding:15px;
+    flex:2;
+    background-color: #f7b2ef;
+    border-size: 1px;
+    border-style: double;
+    border-color: black;
+}
+
+.value {
+    padding: 15px;
+    background-color: #f020d9;
+    flex:2;
+     border-size: 1px;
+     border-style: double;
+     border-color: black;
+}
+

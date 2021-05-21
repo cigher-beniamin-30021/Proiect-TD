@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles/details.css" />
+    <script type="text/javascript" src="libs/vue.js"></script>
+    <script type="text/javascript" src="libs/axios.js"></script>
+</head>
+
+<body>
+    <a href="index.html"><b>Home</b></a><br><br>
+    <div id="details">
+        <h1>Detalii pentru produsul cu id-ul: {{ id }}</h1>
+        <div class="container">
+            <div class="custom"></div>
+            <div class="label">Name:</div>
+            <div class="value">{{house.name}}</div>
+        </div>
+
+        <div class="label">Area:</div>
+        <div class="value">{{house.area}}</div>
+        <div class="label">Style:</div>
+        <div class="value">{{house.style}}</div>
+        <div class="label">Stage:</div>
+        <div class="value">{{house.stage}}</div>
+        <div class="label">Rooms number:</div>
+        <div class="value">{{house.roomsNo}}</div>
+        <div class="label">Status:</div>
+        <div class="value">{{house.status}}</div>
+        <div class="label">Year:</div>
+        <div class="value">{{house.year}}</div>
+        <div class="label">Price:</div>
+        <div class="value">{{house.price}}</div>
+        <div class="label">Location:</div>
+        <div class="value">{{house.location}}</div>
+    </div>
+    <script src="src/details.js"></script>
+</body>
+
+</html>

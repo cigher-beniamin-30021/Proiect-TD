@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+  <meta content="utf-8" http-equiv="encoding" />
+  <title>Houses</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/vue-material.css" />
+  <script type="text/javascript" src="libs/vue.js"></script>
+  <script type="text/javascript" src="libs/vue-material.js"></script>
+  <script type="text/javascript" src="libs/axios.js"></script>
+  <script type="text/javascript" src="src/houses-service.js"></script>
+</head>
+
+<body>
+  <div id="app">
+
+    <div class="title"><b><i>Houses</i></b></div>
+    <div class="addButton">
+      <a :href="'add.html?'"><b>Add House</b></a></div>
+
+
+
+    <p style="text-align: center" v-if="houses.length == 0">No houses found</p>
+
+    <ul class="user-list" v-if="houses.length > 0">
+      <li>
+
+        <div class="user-row-header">
+
+        </div>
+      </li>
+
+      <li v-for="house in houses">
+        <div class="details">
+          <a :href="'details.html?id='+house.id"><b>Name: </b>{{ house.name }}</a>
+          <span class=""><i><b>Area: </b>{{ house.area }}</i></span>
+          <span class=""><i><b>Style: </b>{{ house.style }}</i></span>
+          <span class=""><i><b>Stage: </b>{{ house.stage }}</i></span>
+          <span class=""><i><b>Rooms number: </b>{{ house.roomsNo }}</i></span>
+          <span class=""><i><b>Status: </b>{{ house.status }}</i></span>
+          <span class=""><i><b>Construction year: </b>{{ house.year }}</i></span>
+          <span class=""><i><b>Price: </b>{{ house.price }}</i></span>
+          <span class=""><i><b>Location: </b>{{ house.location }}</i></span>
+          <button v-on:click="deleteHouse(house.id)">Delete</button>
+          <a :href="'update.html?id='+house.id" target="_self">Update</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <script src="src/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<html>
+<head>
+    <script type="text/javascript" src="libs/vue.js"></script>
+    <script type="text/javascript" src="libs/axios.js"></script>
+</head>
+<body>
+
+<a href="index.html"><b>Home</b></a><br><br>
+<div id="add">
+
+    Name: <input type="text" v-model="house.name"><br><br>
+    Area: <input type="text" v-model="house.area"><br><br>
+    Style: <input type="text" v-model="house.style"><br><br>
+    Stage: <input type="text" v-model="house.stage"><br><br>
+    Rooms number: <input type="text" v-model="house.roomsNo"><br><br>
+    Status: <input type="text" v-model="house.status"><br><br>
+    Price: <input type="text" v-model="house.price"><br><br>
+    Year: <input type="text" v-model="house.year"><br><br>
+    Location: <input type="text" v-model="house.location"><br><br>
+    <button  v-on:click="add(house)"><b><i>Save</i></b></button>
+
+    <p>{{message}}</p>
+
+</div>
+
+<script src="src/add.js"></script>
+</body>
+</html>
