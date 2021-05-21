@@ -1,1 +1,134 @@
-[{"id":1,"name":"The Office","area":"340","style":"Modern ","stage":"finished","roomsNo":"38","status":"to sell","year":"2020","price":"50.000 EUR","location":"Industrial area"},{"id":2,"name":"The Nook","area":"200","style":"Classic","stage":"finished","roomsNo":"10","status":"to sell","year":2019,"price":"300.000 EUR","location":"Mountain area"},{"id":3,"name":"Crystal Cottage","area":"100","style":"Rustic","stage":"finished","roomsNo":"3","status":"to rent","year":2017,"price":"100.000 EUR","location":"Country area"},{"id":4,"name":"Bonne Heure","area":"50","style":"Minimalist","stage":"working","roomsNo":"2","status":"to buy","year":2021,"price":"50.000 EUR","location":"Metropolitan area"},{"id":5,"name":"Mayan Secrets","area":"250","style":"Old","stage":"working","roomsNo":"5","status":"to rent","year":2023,"price":"1.000 EUR","location":"Mountains area"},{"id":6,"name":"Laser Craft","area":"400","style":"Modern","stage":"finished","roomsNo":"10","status":"to buy","year":2020,"price":"1.000.000 EUR","location":"Beach"},{"id":7,"name":"Don Kim","area":"200","style":"Japanese","stage":"finished","roomsNo":"7","status":"to rent","year":2000,"price":"2.000 EUR","location":"City center"},{"id":8,"name":"Lake Homes","area":"100","style":"Scandinavic","stage":"furnished","roomsNo":"6","status":"to rent","year":2010,"price":"500 EUR","location":"Mountain lake"},{"id":9,"name":"Bob Villa","area":"500","style":"Victoian","stage":"furnished","roomsNo":"20","status":"to buy","year":1987,"price":"5.000.000 EUR","location":"Metropolitan area"},{"id":10,"name":"Izuku's House","area":"500","style":"Ghotic","stage":"furnished","roomsNo":"20","status":"to buy","year":1999,"price":"3.000.000 EUR","location":"Country area"},{"name":"Beni's Home","area":"100","style":"Baroque","stage":"Finished","roomsNo":"6","status":"to rent","price":"500.000 EUR","year":"2021","location":"Balan","id":11}]
+[
+   {
+      "id":1,
+      "name":"The Office",
+      "area":"340",
+      "style":"Modern ",
+      "stage":"finished",
+      "roomsNo":"38",
+      "status":"to sell",
+      "year":"2020",
+      "price":"50.000 EUR",
+      "location":"Industrial area"
+   },
+   {
+      "id":2,
+      "name":"The Nook",
+      "area":"200",
+      "style":"Classic",
+      "stage":"finished",
+      "roomsNo":"10",
+      "status":"to sell",
+      "year":2019,
+      "price":"300.000 EUR",
+      "location":"Mountain area"
+   },
+   {
+      "id":3,
+      "name":"Crystal Cottage",
+      "area":"100",
+      "style":"Rustic",
+      "stage":"finished",
+      "roomsNo":"3",
+      "status":"to rent",
+      "year":2017,
+      "price":"100.000 EUR",
+      "location":"Country area"
+   },
+   {
+      "id":4,
+      "name":"Bonne Heure",
+      "area":"50",
+      "style":"Minimalist",
+      "stage":"working",
+      "roomsNo":"2",
+      "status":"to buy",
+      "year":2021,
+      "price":"50.000 EUR",
+      "location":"Metropolitan area"
+   },
+   {
+      "id":5,
+      "name":"Mayan Secrets",
+      "area":"250",
+      "style":"Old",
+      "stage":"working",
+      "roomsNo":"5",
+      "status":"to rent",
+      "year":2023,
+      "price":"1.000 EUR",
+      "location":"Mountains area"
+   },
+   {
+      "id":6,
+      "name":"Laser Craft",
+      "area":"400",
+      "style":"Modern",
+      "stage":"finished",
+      "roomsNo":"10",
+      "status":"to buy",
+      "year":2020,
+      "price":"1.000.000 EUR",
+      "location":"Beach"
+   },
+   {
+      "id":7,
+      "name":"Don Kim",
+      "area":"200",
+      "style":"Japanese",
+      "stage":"finished",
+      "roomsNo":"7",
+      "status":"to rent",
+      "year":2000,
+      "price":"2.000 EUR",
+      "location":"City center"
+   },
+   {
+      "id":8,
+      "name":"Lake Homes",
+      "area":"100",
+      "style":"Scandinavic",
+      "stage":"furnished",
+      "roomsNo":"6",
+      "status":"to rent",
+      "year":2010,
+      "price":"500 EUR",
+      "location":"Mountain lake"
+   },
+   {
+      "id":9,
+      "name":"Bob Villa",
+      "area":"500",
+      "style":"Victoian",
+      "stage":"furnished",
+      "roomsNo":"20",
+      "status":"to buy",
+      "year":1987,
+      "price":"5.000.000 EUR",
+      "location":"Metropolitan area"
+   },
+   {
+      "id":10,
+      "name":"Izuku's House",
+      "area":"500",
+      "style":"Ghotic",
+      "stage":"furnished",
+      "roomsNo":"20",
+      "status":"to buy",
+      "year":1999,
+      "price":"3.000.000 EUR",
+      "location":"Country area"
+   },
+   {
+      "name":"Beni's Home",
+      "area":"100",
+      "style":"Baroque",
+      "stage":"Finished",
+      "roomsNo":"6",
+      "status":"to rent",
+      "price":"500.000 EUR",
+      "year":"2021",
+      "location":"Balan",
+      "id":11
+   }
+]
